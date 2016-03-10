@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     migrations: {
       path: "migrations",
       template: grunt.file.read('migrations/_template.js'),
-      mongo: 'mongodb://localhost/unicefcontacts',
+      mongo: 'mongodb://localhost/table_tennis',
       ext: "js"
     },
     coveralls: {
